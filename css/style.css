@@ -32,4 +32,22 @@ header{
 
 /* fine header*/
 
+.cont-blu{
+    display: flex;
+    height: 350px;
+    background-color: rgb(8, 8, 146);
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pink{
+    
+    height: 250px;
+    width: 500px;
+    background-color: rgb(252, 97, 192);
+    border-style: Dashed;
+}
+
+/* fine parte rosa e blu*/
+
 
