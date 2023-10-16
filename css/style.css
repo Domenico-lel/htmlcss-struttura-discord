@@ -1,4 +1,4 @@
-*{
+body{
     margin: 0;
 }
 
@@ -20,7 +20,6 @@ header{
     display: flex;
     background-color: orange;
     width: auto;
-    box-sizing: border-box;
     justify-content: space-around;
     align-items: center; 
 }
@@ -48,6 +47,103 @@ header{
     border-style: Dashed;
 }
 
-/* fine parte rosa e blu*/
+/* fine parte rettangolo rosa*/
 
+.cont-bianco{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cont-bianco-{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    
+}
+
+.contenitore1{
+    height: 290px;
+    width: 500px;
+    background-color: rgb(0, 162, 255);
+    border-style: Dashed;
+}
+
+
+.contenitore2{
+    height: 290px;
+    width: 300px;
+    background-color: pink;
+    border-style: Dashed;
+}
+/*fine trio di copia e incolla*/
+
+.contenitore_delverde{
+    display: flex;
+    height: 600px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.verd{
+    height: 550px;
+    width: 810px;
+    background-color: green;
+    border-style: Dashed;
+}
+/*fine quadrato verde*/
+
+.nero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 370px;
+    background-color: rgb(31, 29, 29);
+}
+
+.cont_colonna1{
+    width: 180px;
+    height: 300px;
+    background-color: rgb(189, 79, 98);
+    border-style: Dashed ;
+}
+
+.cont_blue{
+    width: 100px;
+    background-color: turquoise;
+    height: 300px;  
+    border-style: Dashed;
+    border-color: #fff;
+}
+/*fine rettangolo grande nero*/
+
+.ultimo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 90px;
+    margin-top: 1px;
+    background: rgb(31, 29, 29);
+}
+
+.fondo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 810px;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.logo, .bottone{
+    width: 50px;
+    height: 20px;
+    background-color: #8d8989;
+    border-style: Dashed;
+}
 
